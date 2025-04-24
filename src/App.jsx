@@ -1015,7 +1015,7 @@ const edmondsKarp = (graph, source, sink) => {
                 y={labelPos.y}
                 textAnchor="middle"
                 fontSize="12"
-                fill="white"
+                fill="black"
                 className={isEditMode ? 'cursor-pointer' : ''}
               >
                 {edge.flow > 0 ? `${edge.flow}/${edge.capacity}` : `${edge.capacity}`}
@@ -1055,7 +1055,7 @@ const edmondsKarp = (graph, source, sink) => {
               <text
                 textAnchor="middle"
                 y="5"
-                fill="white"
+                fill="black"
                 fontSize="14"
                 fontWeight="bold"
               >
